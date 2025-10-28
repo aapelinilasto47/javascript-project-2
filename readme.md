@@ -40,17 +40,20 @@ Mielestäni sovelluksessa ei ole virheitä / bugeja
 
 ## Kuvakaappaukset
 
-`![Etusivu](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/frontpage.png)`
-`![Wishlist](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/wishlist.png)`
-`![Details](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/details.png)`
+`![Etusivu](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/frontpage.png?raw=true)`
+`![Wishlist](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/wishlist.png?raw=true)`
+`![Details](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/details.png?raw=true)`
 
 
 
 Kuvat: [Aapeli Nilasto]
 
 ## Teknologiat
-Kuvaa, mitä teknologioita käytettiin ja mikä oli niiden rooli projektissasi.  
-Käytin seuraavia teknologioita: `html`, `css`, 
+Käytin seuraavia teknologioita: `html`, `css`, `javascript`
+
+HTML:ää käytin sivun rakenteen luomiseen
+CSS:ää käytin sivun tyylittelyyn
+Javascriptiä käytin luomaan kaiken muun, esimerkiksi hakemaan tiedot REST API:sta ja näyttämään ne ruudulla.
 
 ## Asennus
 Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi:  
