@@ -40,9 +40,9 @@ Mielestäni sovelluksessa ei ole virheitä / bugeja
 
 ## Kuvakaappaukset
 
-`![Etusivu](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/frontpage.png?raw=true)`
-`![Wishlist](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/wishlist.png?raw=true)`
-`![Details](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/details.png?raw=true)`
+![Etusivu](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/frontpage.png?raw=true)
+![Wishlist](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/wishlist.png?raw=true)
+![Details](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/details.png?raw=true)
 
 
 
@@ -56,11 +56,11 @@ CSS:ää käytin sivun tyylittelyyn
 Javascriptiä käytin luomaan kaiken muun, esimerkiksi hakemaan tiedot REST API:sta ja näyttämään ne ruudulla.
 
 ## Asennus
-Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi:  
-- lataa kaikki tiedostot ja avaa index.html selaimessasi  
-- lataa tai kloonaa repositorio  
-- suorita `npm install`  
-- ...
+- Avaa Netlify-sovellus selaimessasi
+tai 
+- Lataa tiedostot paikallisesti tietokoneellesi ja aja index.html selaimessasi
+tai
+- Kopioi tämä repositorio ja aja index-html selaimessasi
 
 ## Kiitokset
 Lista lähteistä ja esimerkeistä, joita käytit projektin aikana. Mainitse myös, jos käytit ChatGPT:tä tai muita tekoälytyökaluja koodauksen aikana ja kerro, miten ne auttoivat sinua.  
