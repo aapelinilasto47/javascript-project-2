@@ -40,7 +40,8 @@ Mielestäni sovelluksessa ei ole virheitä / bugeja
 
 ## Kuvakaappaukset
 
-`![Kirjoittaminen]()`
+`![Kirjoittaminen](frontpage.png)`
+
 
 Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
 
