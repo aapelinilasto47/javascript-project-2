@@ -71,4 +71,4 @@ käytin Github Copilotia joidenkin komentojeni automaattiseen täyttöön, joka 
 
 ## Lisenssi
 
-
+MIT-Lisenssi @ [tekijä](
