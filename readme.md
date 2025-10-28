@@ -63,11 +63,12 @@ tai
 - Kopioi tämä repositorio ja aja index-html selaimessasi
 
 ## Kiitokset
-Lista lähteistä ja esimerkeistä, joita käytit projektin aikana. Mainitse myös, jos käytit ChatGPT:tä tai muita tekoälytyökaluja koodauksen aikana ja kerro, miten ne auttoivat sinua.  
-- [John Doe](johndoe.com)  
-- [Beginners guide to BEM](link-goes-here.com)  
+
+- [www.chatgpt.com](https://chatgpt.com/)
+käytin ChatGPT:tä debuggaamiseen.
+- [Github Copilot]
+käytin Github Copilotia joidenkin komentojeni automaattiseen täyttöön, joka teki koodin kirjoittamisesta sujuvampaa.
 
 ## Lisenssi
-Valitse projektille lisenssi seuraamalla tätä [opasta](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
 
-Esimerkki: MIT-lisenssi @ [tekijä](author.com)
+
