@@ -71,4 +71,4 @@ käytin Github Copilotia joidenkin komentojeni automaattiseen täyttöön, joka 
 
 ## Lisenssi
 
-MIT-Lisenssi @ [tekijä](
+MIT-Lisenssi @ [tekijä](https://github.com/aapelinilasto47/javascript-project-2/blob/main/LICENSE)
