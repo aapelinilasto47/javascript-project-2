@@ -40,14 +40,17 @@ Mielestäni sovelluksessa ei ole virheitä / bugeja
 
 ## Kuvakaappaukset
 
-`![Kirjoittaminen](frontpage.png)`
+`![Etusivu](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/frontpage.png)`
+`![Wishlist](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/wishlist.png)`
+`![Details](https://github.com/aapelinilasto47/javascript-project-2/blob/main/kuvat/details.png)`
 
 
-Kuva: [Kelly Sikkema](https://unsplash.com/@kellysikkema)
+
+Kuvat: [Aapeli Nilasto]
 
 ## Teknologiat
 Kuvaa, mitä teknologioita käytettiin ja mikä oli niiden rooli projektissasi.  
-Käytin seuraavia teknologioita: `html`, `css`, ...
+Käytin seuraavia teknologioita: `html`, `css`, 
 
 ## Asennus
 Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi:  
