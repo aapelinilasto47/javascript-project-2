@@ -8,10 +8,10 @@ Linkki projektin videoesittelyyn [videoesittely]([https://google.com](https://yo
 ## Työn jakautuminen 
 Tämä oli yksilöprojekti, tein kaiken itse.
 
-## Oma arvio työstä ja oman osaamisen kehittymisestä
-Mielestäni onnistuin hyvin visuaalisuudessa ja datan haussa ja käsittelyssä
-Parantamista olisi nettisivun ominaisuuksissa, voisi lisätä paljon muutakin, esim ostoskori-elementti
-Sovelluksesta jäi puuttumaan tämä ostoskorielementti, ja ehkä tuotekategoriat
+## Oma arvio työstä ja oman osaamisen kehittymisestä.
+Mielestäni onnistuin hyvin visuaalisuudessa ja datan haussa ja käsittelyssä.
+Parantamista olisi nettisivun ominaisuuksissa, voisi lisätä paljon muutakin, esim ostoskori-elementti.
+Sovelluksesta jäi puuttumaan tämä ostoskorielementti, ja ehkä tuotekategoriat.
 Koen, että olen oppinut paljon datan käsittelystä ja javascriptista!
 Epäselväksi jäi, oikeastaan ei mitään!
 Antaisin itselleni pisteitä seuraavasti: 9/10 p
