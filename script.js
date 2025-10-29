@@ -92,6 +92,9 @@ document.getElementById("search-button").addEventListener("click", function() {
 
 // funktio tuotteiden esittämiseen, tämä funktio tehdään jokaiselle tuotteelle erikseen
 function presentProducts(product) {
+
+    wishlistLength = wishlist.length;
+    openWishlistButton.textContent = `Open Wishlist (${wishlistLength})`;
     // luodaan tuotteen kontaineri
     const productContainer = document.createElement("div");
     productContainer.className = "product-container";
@@ -147,7 +150,9 @@ function presentProducts(product) {
     // nappulan klikkaus lisää tuotteen wishlistiin
     button.addEventListener("click", function() {
         wishlist.push(product);
-        alert(product.title + " added to wishlist!");
+        
+        wishlistLength = wishlist.length;
+        openWishlistButton.textContent = `Open Wishlist (${wishlistLength})`;
 
     });
     buttonContainer.appendChild(button);
@@ -173,6 +178,8 @@ function presentProducts(product) {
 
 // funktio tuotteen yksityiskohtaiseen esittämiseen
 function presentProductDetails(product) {
+    wishlistLength = wishlist.length;
+    openWishlistButton.textContent = `Open Wishlist <b>(${wishlistLength})</b>`;
     // luodaan tuotteen yksityiskohtien kontaineri
     const detailContainer = document.createElement("div");
     detailContainer.className = "detail-container";
@@ -238,15 +245,19 @@ function presentProductDetails(product) {
 
     wishlistButton.addEventListener("click", function() {
         // nappulan klikkaus lisää tuotteen wishlistiin
-        alert(product.title + " added to wishlist!");
-        wishlist.push(product);
         
+        wishlist.push(product);
+        wishlistLength = wishlist.length;
+        openWishlistButton.textContent = `Open Wishlist (${wishlistLength})`;
+
     });
     buttonContainer.appendChild(wishlistButton);
 }
 
 // funktio wishlistin näyttämiseen
 function showWishlist() {
+    wishlistLength = wishlist.length;
+    openWishlistButton.textContent = `Open Wishlist (${wishlistLength})`;
     // tarkistetaan onko wishlist tyhjä
     if (wishlist.length === 0) {
         resultDiv.innerHTML = "";
@@ -332,6 +343,7 @@ function showWishlist() {
             const removeButton = document.createElement("button");
             removeButton.textContent = "Remove";
             removeButton.className = "remove-from-wishlist";
+
             removeButton.addEventListener("click", function() { 
                 const index = wishlist.indexOf(product);
                 // poistetaan tuote wishlististä
