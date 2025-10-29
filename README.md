@@ -3,7 +3,7 @@ Aapeli Nilasto - Product Showcase
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
-Linkki projektin videoesittelyyn [google.com](https://google.com)
+Linkki projektin videoesittelyyn [videoesittely]([https://google.com](https://youtu.be/VVSxG3sH6LA))
 
 ## Työn jakautuminen 
 Tämä oli yksilöprojekti, tein kaiken itse.
