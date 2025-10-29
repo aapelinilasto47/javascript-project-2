@@ -11,17 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
     wishlist = [];
 });
 
-// funktio tuotteiden näyttämiseen, joka tuotteen kohdalla kutsutaan presentProducts funktiota, tuotteita on yhteensä 20kpl
-function showData() {
-    fetchProduct().then(allProducts => {
-        resultDiv.innerHTML = "";
-        for (let i = 0; i < allProducts.length && i < 20; i++) {
-
-            presentProducts(allProducts[i]);
-
-        }     
-    });
-}
 
 // funktio tuotteiden hakemiseen API:sta
 function fetchProduct() {
@@ -41,6 +30,17 @@ function fetchProduct() {
         
 }
 
+// funktio tuotteiden näyttämiseen, kutsutaan fetchProduct funktiota ja ajetaan presentProducts funktio jokaiselle tuotteelle, joita on 20kpl
+function showData() {
+    fetchProduct().then(allProducts => {
+        resultDiv.innerHTML = "";
+        for (let i = 0; i < allProducts.length && i < 20; i++) {
+
+            presentProducts(allProducts[i]);
+
+        }     
+    });
+}
 // funktio tuotteiden hakemiseen hakusanan perusteella
 function searchProducts(query) {
     return fetch(`https://fakestoreapi.com/products`)
@@ -179,7 +179,7 @@ function presentProducts(product) {
 // funktio tuotteen yksityiskohtaiseen esittämiseen
 function presentProductDetails(product) {
     wishlistLength = wishlist.length;
-    openWishlistButton.textContent = `Open Wishlist <b>(${wishlistLength})</b>`;
+    openWishlistButton.textContent = `Open Wishlist (${wishlistLength})`;
     // luodaan tuotteen yksityiskohtien kontaineri
     const detailContainer = document.createElement("div");
     detailContainer.className = "detail-container";
