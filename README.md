@@ -2,7 +2,7 @@
 Aapeli Nilasto - Product Showcase
 
 ## Verkkolinkit:
-Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
+Pääset julkaistuun sovellukseen käsiksi osoitteessa [aapelinilastoproductshowcase.netlify.app](https://aapelinilastoproductshowcase.netlify.app/)
 Linkki projektin videoesittelyyn [videoesittely](https://youtu.be/VVSxG3sH6LA)
 
 ## Työn jakautuminen 
